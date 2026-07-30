@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Girls Only — Nosso Álbum de Memórias</title>
+  <meta name="description" content="Girls Only — um álbum digital de memórias, amizade e férias entre Raphaela, Bruna e Sabrina." />
+
+  <!-- Google Fonts: par tipográfico elegante (serifada delicada + sans utilitária) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon simples em SVG (coraçãozinho) para não depender de arquivos externos -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='24' font-size='24'%3E%F0%9F%92%97%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+
+      <!-- Logo criada pela equipe (SVG inline, leve e escalável) -->
+      <a href="#inicio" class="logo" aria-label="Girls Only — voltar ao início">
+        <svg class="logo-mark" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" alt="Logo Girls Only" role="img">
+          <title>Logo Girls Only</title>
+          <circle cx="17" cy="17" r="16" stroke="#D4AF37" stroke-width="1"/>
+          <path d="M17 24C17 24 8 18.5 8 12.8C8 9.9 10.2 8 12.7 8C14.4 8 16 8.9 17 10.4C18 8.9 19.6 8 21.3 8C23.8 8 26 9.9 26 12.8C26 18.5 17 24 17 24Z" fill="#D98BA7"/>
+        </svg>
+        <span class="logo-text">Girls Only</span>
+      </a>
+
+      <!-- Menu de navegação -->
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio" class="nav-link active">Início</a></li>
+          <li><a href="#historia" class="nav-link">Nossa História</a></li>
+          <li><a href="#video" class="nav-link">Vídeo</a></li>
+          <li><a href="#galeria" class="nav-link">Galeria</a></li>
+          <li><a href="#integrantes" class="nav-link">Integrantes</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botão hambúrguer para telas pequenas -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mainNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="inicio">
+      <div class="hero-bg" style="background-image: url('./assets/Pink%20aura%20wallpaper.webp');" role="img" aria-label="Fundo rosa do álbum Girls Only"></div>
+      <div class="hero-overlay"></div>
+
+      <!-- elementos decorativos discretos -->
+      <div class="decor decor-1" aria-hidden="true">✦</div>
+      <div class="decor decor-2" aria-hidden="true">❀</div>
+      <div class="decor decor-3" aria-hidden="true">✧</div>
+      <div class="decor decor-4" aria-hidden="true">♡</div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">um álbum de memórias entre amigas</p>
+        <h1 class="hero-title">Girls Only</h1>
+        <p class="hero-text">
+          Mais do que um álbum de fotos, este é o nosso cantinho de memórias.
+          Um lugar onde cada clique, cada aventura e cada risada contam um
+          pedacinho da nossa história e das férias que nunca vamos esquecer.
+        </p>
+
+        <p class="hero-members">Raphaela Oliveira &nbsp;·&nbsp; Bruna Guimarães &nbsp;·&nbsp; Sabrina Ventura</p>
+
+        <div class="hero-buttons">
+          <a href="#video" class="btn btn-primary">Assistir ao Vídeo</a>
+          <a href="#galeria" class="btn btn-secondary">Explorar Galeria</a>
+        </div>
+      </div>
+
+      <a href="#historia" class="scroll-hint" aria-label="Rolar para próxima seção">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ==================== NOSSA HISTÓRIA ==================== -->
+    <section class="historia" id="historia">
+      <div class="container">
+
+        <p class="section-eyebrow reveal">um pouquinho sobre nós</p>
+        <h2 class="section-title reveal">Nossa História</h2>
+        <p class="section-lead reveal">
+          Este site nasceu para guardar as melhores lembranças das nossas férias
+          e celebrar a amizade que construímos ao longo dos anos. Cada seção aqui
+          é um pedacinho do que vivemos — e um convite para reviver com a gente.
+        </p>
+
+        <div class="cards-grid">
+
+          <article class="story-card reveal">
+            <div class="story-icon">❤️</div>
+            <h3>Amizade</h3>
+            <p>A base de tudo. É a amizade entre nós que transforma qualquer lugar
+               em lar e qualquer dia comum em uma lembrança para guardar para sempre.</p>
+          </article>
+
+          <article class="story-card reveal">
+            <div class="story-icon">✈️</div>
+            <h3>Aventuras</h3>
+            <p>Estradas, praias, cidades novas e mapas rabiscados. Cada viagem que
+               fizemos juntas virou uma página cheia de histórias para contar.</p>
+          </article>
+
+          <article class="story-card reveal">
+            <div class="story-icon">📸</div>
+            <h3>Memórias</h3>
+            <p>Cada fotografia aqui representa um momento especial — um sorriso,
+               um pôr do sol, uma gargalhada — congelado no tempo só para nós.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SEÇÃO DO VÍDEO ==================== -->
+    <section class="video-section" id="video">
+      <div class="container">
+        <p class="section-eyebrow reveal">reviva com a gente</p>
+        <h2 class="section-title reveal">O Filminho das Férias</h2>
+        <p class="section-lead reveal">
+          Reunimos os melhores momentos das nossas férias em um pequeno vídeo.
+          Pipoca na mão, som no talo — e bora assistir juntas.
+        </p>
+
+        <div class="video-card reveal">
+          <div class="video-wrapper">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/etfCSoAHqHk?si=0IdEzc4YeQl6c0w7"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== GALERIA ==================== -->
+    <section class="galeria" id="galeria">
+      <div class="container">
+        <p class="section-eyebrow reveal">nosso álbum digital</p>
+        <h2 class="section-title reveal">Galeria de Momentos</h2>
+        <p class="section-lead reveal">
+          Um pedacinho de tudo que vivemos: praias, risadas, estradas e o pôr do
+          sol mais bonito que já vimos juntas.
+        </p>
+
+        <div class="gallery-grid">
+
+          <figure class="gallery-item reveal">
+            <img class="gallery-image" src="./assets/foto%20galeria.jpeg" alt="Foto de pôr do sol na praia" loading="lazy" />
+            <figcaption>Na Estrada</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img class="gallery-image" src="./assets/foto%20galeria%202.jpeg" alt="Foto de risadas entre as amigas" loading="lazy" />
+            <figcaption>Parque Capivari</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img class="gallery-image" src="./assets/foto%20galeria%203.jpeg" alt="Foto de viagem na estrada" loading="lazy" />
+            <figcaption>Pôr do Sol na Praia</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img class="gallery-image" src="./assets/foto%20galeria%204.jpeg" alt="Foto de tarde na piscina" loading="lazy" />
+            <figcaption>Risadas sem Fim</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img class="gallery-image" src="./assets/foto%20galeria%205.jpeg" alt="Foto de jantar especial entre amigas" loading="lazy" />
+            <figcaption>Parque Ecologico</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img class="gallery-image" src="./assets/foto%20galeria%206.jpeg" alt="Foto de passeio explorando a cidade" loading="lazy" />
+            <figcaption>Restaurante</figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== INTEGRANTES ==================== -->
+    <section class="integrantes" id="integrantes">
+      <div class="container">
+        <p class="section-eyebrow reveal">quem somos</p>
+        <h2 class="section-title reveal">As Integrantes</h2>
+        <p class="section-lead reveal">
+          O trio por trás desse cantinho de memórias.
+        </p>
+
+        <div class="members-grid">
+
+          <article class="member-card reveal">
+            <div class="member-photo">
+              <img src="./assets/integrante%20raphaela%20foto.jpeg" alt="Foto de Raphaela Oliveira" loading="lazy" />
+            </div>
+            <h3>Raphaela Oliveira</h3>
+            <p>Sempre com a câmera em punho para não deixar nenhum momento escapar.</p>
+          </article>
+
+          <article class="member-card reveal">
+            <div class="member-photo">
+              <img src="./assets/integrante%20bruna%20foto.jpeg" alt="Foto de Bruna Guimarães" loading="lazy" />
+            </div>
+            <h3>Bruna Guimarães</h3>
+            <p>A que planeja cada roteiro de viagem com todo o carinho do mundo.</p>
+          </article>
+
+          <article class="member-card reveal">
+            <div class="member-photo">
+              <img src="./assets/integrante%20sabrina%20foto.jpeg" alt="Foto de Sabrina Ventura" loading="lazy" />
+            </div>
+            <h3>Sabrina Ventura</h3>
+            <p>Responsável pela trilha sonora perfeita de cada aventura.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer" id="contato">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <span class="logo-text footer-logo">Girls Only</span>
+        <p>Nosso cantinho de memórias, feito com carinho.</p>
+      </div>
+
+      <div class="footer-team">
+        <h4>Equipe</h4>
+        <ul class="footer-members">
+          <li>
+            <span>Raphaela Oliveira</span>
+            <a href="https://www.instagram.com/__olivraphaa?igsh=MWNzdjUxcTN0cWpheQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Raphaela Oliveira">Instagram</a>
+          </li>
+          <li>
+            <span>Bruna Guimarães</span>
+            <a href="https://www.instagram.com/bruhx_martinss" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Bruna Guimarães">Instagram</a>
+          </li>
+          <li>
+            <span>Sabrina Ventura</span>
+            <a href="https://www.instagram.com/sabrinaxrd_" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Sabrina Ventura">Instagram</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Girls Only. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Modal para visualização das imagens da galeria -->
+  <div class="gallery-modal" id="galleryModal" aria-hidden="true">
+    <div class="gallery-modal-backdrop" data-close-modal></div>
+    <div class="gallery-modal-content" role="dialog" aria-modal="true" aria-label="Visualização da imagem">
+      <button class="gallery-modal-close" id="galleryModalClose" aria-label="Fechar imagem">×</button>
+      <img id="galleryModalImage" src="" alt="" />
+    </div>
+  </div>
+
+  <!-- Botão voltar ao topo -->
+  <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
